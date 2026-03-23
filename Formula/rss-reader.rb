@@ -1,8 +1,8 @@
 class RssReader < Formula
   desc "TUI RSS/Atom reader with multi-feed support"
   homepage "https://github.com/MOHY-Li/rss-reader"
-  url "https://github.com/MOHY-Li/rss-reader/archive/refs/tags/v0.1.10.tar.gz"
-  sha256 "46b3ff178c99c17f20467587b3845ef96d7aa54be9f6b2cfec31afd99e9c9baf"
+  url "https://github.com/MOHY-Li/rss-reader/archive/refs/tags/v0.1.11.tar.gz"
+  sha256 "71ce7d772d82fe50a01d5678f2119bed292909b0836fe6dd26f9c61f7878116f"
   depends_on "rust" => :build
 
   def install
